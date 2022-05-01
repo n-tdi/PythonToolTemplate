@@ -40,7 +40,7 @@ class Bot:
         this.updateTitle() # update title
         print(mainColor + ascii_text) # print ascii art
         sendCons("Starting bot loop") # start the loop of your main task
-        sendCons("Press G to quit") # if user wants to quit press g
+        sendCons("Hold G to quit") # if user wants to quit press g
         sendCons(f"Sent {this.count} bots") # print how many bots you sent
         now = time.time()
         elapsed = str(now - this.started_time).split(".")[0] # elapsed time
